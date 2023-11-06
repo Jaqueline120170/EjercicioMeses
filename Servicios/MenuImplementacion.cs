@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace EjercicioMeses.Servicios
 {
+    /// <summary>
+    /// clase que implementa la interfaz del menu
+    /// 06112023 - jrt
+    /// </summary>
     internal class MenuImplementacion : MenuInterfaz
     {
         public int pedirMes()

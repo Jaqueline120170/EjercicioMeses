@@ -12,14 +12,19 @@ namespace EjercicioMeses.Servicios
     /// </summary>
     internal interface MenuInterfaz
     {
+        
+        public int pedirMes();
         /// <summary>
-        /// Método que mostrará el mensaje para recoger el mes y año que seleccione el usuario
+        /// Método que mostrará el mensaje para recoger el mes  que seleccione el usuario
         /// 06112023 - jrt
         /// </summary>
         /// <returns> en este caso será un entero que muestre la opción que ha seleccionado</returns>
-        public int pedirMes();
-
         public int pedirAnyo();
+        /// <summary>
+        /// Método que mostrará el mensaje para recoger el año  que seleccione el usuario
+        /// 06112023 - jrt
+        /// </summary>
+        /// <returns> en este caso será un entero que muestre la opción que ha seleccionado</returns>
     }
 
 }
